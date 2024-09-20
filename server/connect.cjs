@@ -8,6 +8,7 @@ async function connectDB(){
     // to hold value of atlas uri string
     //now u can access environemtnal variables with process.env
     const client = new MongoClient(Db);
+    
 
     //for smoothness added try and catch block
 
