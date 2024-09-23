@@ -3,8 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar/SideBar';
 import Today from "./components/Today/Today"
-import Prompts from './components/Prompts/Prompts';
-import Calendar from './components/Calendar/Calendar';
+// import Prompts from './components/Prompts/Prompts';
+// import Calendar from './components/Calendar/Calendar'; uncomment when bringing back pages <-- Umi
 import Login from "./components/Login/Login";
 
 function App() {
@@ -19,8 +19,9 @@ function App() {
             <div className="col-md-9 good-evening">
               <Routes>
                 <Route path="/" element={<Today />} />
+                {/* uncomment when bringing back pages - Umi
                 <Route path="/calendar" element={<Calendar />} />
-                <Route path="/prompt" element={<Prompts />} />
+                <Route path="/prompt" element={<Prompts />} /> */}
                 <Route path="/login" element={<Login />} />
               </Routes>
             </div>
