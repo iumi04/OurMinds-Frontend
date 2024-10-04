@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import "./Today.css";
-import Login from '../Login/Login';
+import Login from '../Login/Login.js';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Polly from "../../assets/images/polly.svg";
 import Plus from "../../assets/images/button.svg";
 import Arrow from "../../assets/images/arrow.svg";
-import PromptSection from '../Prompts/PromptSection';
+import PromptSection from '../Prompts/PromptSection.js';
 import { Modal } from 'react-bootstrap';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import apiService from '../../services/apiService';
+import apiService from '../../services/apiService.js';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const Today = () => {

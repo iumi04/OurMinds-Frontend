@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Daily from "../../assets/images/daily-prompt.svg";
 import Down from "../../assets/images/downarrow.svg";
 import Accept from "../../assets/images/accept.svg";
-import WeeklyPrompt from './WeeklyPrompt';
+import WeeklyPrompt from './WeeklyPrompt.js';
 
 const PromptSection = ({ handleShowReflection }) => {
 

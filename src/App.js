@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Sidebar from './components/Sidebar/SideBar';
-import Today from "./components/Today/Today"
+import Sidebar from './components/Sidebar/SideBar.js';
+import Today from "./components/Today/Today.js"
 // import Prompts from './components/Prompts/Prompts';
 // import Calendar from './components/Calendar/Calendar'; uncomment when bringing back pages <-- Umi
-import Login from "./components/Login/Login";
+import Login from "./components/Login/Login.js";
 
 function App() {
   return (

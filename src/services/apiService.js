@@ -1,6 +1,6 @@
-const User = require("../../models/Users");
-const JournalEntry = require('../../models/JournalEntry');
-const jwt = require('jsonwebtoken');
+import User from "../models/Users.js";
+import JournalEntry from '../models/JournalEntry.js';
+import jwt from 'jsonwebtoken';
 
 // Replace with your JWT secret key (should be stored securely)
 const JWT_SECRET = 'your_jwt_secret_key';
@@ -88,4 +88,4 @@ const apiService = {
   },
 };
 
-module.exports = apiService;
+export default apiService;

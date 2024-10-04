@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 require("dotenv").config(); // Load environment variables from .env file
 
-const connectDB = require("./connect.cjs"); // Import your database connection, changed from database to connect.cjs
+const connectDB = require("./connect.js"); // Import your database connection, changed from database to connect.cjs
 const authRoutes = require("../routes/authRoutes.js"); // Import authentication routes
 
 const app = express();

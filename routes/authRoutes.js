@@ -2,7 +2,7 @@
 
 const express = require("express");
 const router = express.Router();
-const User = require("../models/Users.js"); // Import the User model
+const User = require("../src/models/Users.js"); // Import the User model
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const apiService = require("../src/services/apiService");  //connect to new api service

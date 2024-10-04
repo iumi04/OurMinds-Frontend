@@ -2,7 +2,7 @@ import React from 'react';
 import "./Prompt.css";
 import Sparkle from "../../assets/images/sparkle.svg";
 import Notification from "../../assets/images/notification.svg";
-import PromptSection from './PromptSection';
+import PromptSection from './PromptSection.js';
 
 const Prompts = () => {
     const currentDate = new Date();
