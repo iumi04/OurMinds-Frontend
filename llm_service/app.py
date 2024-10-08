@@ -9,7 +9,7 @@ generator = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 @app.post("/generate")
 async def generate(prompt: str):
-    response = generator(prompt, max_length=100, num_return_sequences=1)
+    response = generator(prompt, max_length=200, num_return_sequences=1)
     return {"response": response[0]["generated_text"]}
 
 if __name__ == "__main__":
